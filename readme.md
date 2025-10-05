@@ -39,29 +39,28 @@ knowledge_bot/
 ├── data/                         # folder to store uploaded PDFs
 ├── requirements.txt               # dependencies
 └── README.md
-
----
+```
 
 ## Setup Instructions
 
 ### 1. Clone Repository
 
 ```bash
-git clone <this repo>
+git clone https://github.com/sedhasukhdeep/knowledge_bot.git
 cd knowledge_bot
 2. Create & Activate Virtual Environment
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-# venv\Scripts\activate    # Windows
+    -   python -m venv venv
+    -   source venv/bin/activate   # macOS/Linux
+    
 3. Install Dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
+    -   pip install --upgrade pip
+    -   pip install -r requirements.txt
 4. Set OpenAI API Key
-Create src/config.py:
-OPENAI_API_KEY="your-openai-api-key-here"
+    -  Create src/config.py:
+    -  OPENAI_API_KEY="your-openai-api-key-here"
 Alternatively, use a .env file and python-dotenv to load your key.
 5. Run Streamlit App
-streamlit run app.py
+-   streamlit run app.py
 Open the browser at: http://localhost:8501
 Upload your PDFs and start asking questions!
 
