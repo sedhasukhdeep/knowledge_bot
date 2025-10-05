@@ -37,9 +37,7 @@ build/
 .ipynb_checkpoints/
 
 # LlamaIndex / data
-data/*.pkl
-data/*.db
-data/*
+data/*.*
 
 # PyCharm
 .idea/
