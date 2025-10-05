@@ -27,7 +27,7 @@ A simple AI-powered application to **upload PDF documents and chat with them** u
 ---
 
 ## Project Structure
-
+```
 knowledge_bot/
 ├── src/
 │ ├── init.py
@@ -38,6 +38,7 @@ knowledge_bot/
 ├── data/ # folder to store uploaded PDFs
 ├── requirements.txt # dependencies
 └── README.md
+````
 
 ---
 
