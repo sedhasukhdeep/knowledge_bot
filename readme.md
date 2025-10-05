@@ -28,15 +28,16 @@ A simple AI-powered application to **upload PDF documents and chat with them** u
 
 ## Project Structure
 
+```text
 knowledge_bot/
 ├── src/
-│ ├── init.py
-│ ├── llama_index_utils.py # functions to build index & query
-│ └── config.py # store your OPENAI_API_KEY
-├── app.py # Streamlit app entry point
-├── venv/ # Python virtual environment
-├── data/ # folder to store uploaded PDFs
-├── requirements.txt # dependencies
+│   ├── __init__.py
+│   ├── llama_index_utils.py      # functions to build index & query
+│   └── config.py                 # store your OPENAI_API_KEY
+├── app.py                        # Streamlit app entry point
+├── venv/                         # Python virtual environment
+├── data/                         # folder to store uploaded PDFs
+├── requirements.txt               # dependencies
 └── README.md
 
 ---
