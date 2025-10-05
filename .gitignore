@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.env
+*.venv/
+venv/
+env/
+ENV/
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# LlamaIndex / data
+data/*.pkl
+data/*.db
+data/*
+
+# PyCharm
+.idea/
+
+# Backup files
+*~
+*.bak
+*.swp

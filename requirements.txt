@@ -1,0 +1,17 @@
+# LlamaIndex for indexing & retrieval
+llama-index>=0.10.4
+
+# OpenAI API client
+openai>=0.28.0
+
+# Streamlit for web UI
+streamlit>=1.25.0
+
+# Optional: better PDF reading support
+PyPDF2>=3.0.0
+
+# Environment variable handling
+python-dotenv>=1.0.0
+
+# Optional: watch for file changes (Streamlit recommended)
+watchdog>=3.0.0
