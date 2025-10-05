@@ -38,6 +38,7 @@ build/
 
 # LlamaIndex / data
 data/*.*
+!data/.gitkeep
 
 # PyCharm
 .idea/
